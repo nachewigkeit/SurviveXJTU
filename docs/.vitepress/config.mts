@@ -25,6 +25,10 @@ export default defineConfig({
   title: "SurviveXJTU",
   description: "西安交大生存指南，更适合西交大学子的生存指南。",
   themeConfig: {
+    logo: {
+      src: '/logo.svg',
+      alt: 'Logo: XiStudyGroup',
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
