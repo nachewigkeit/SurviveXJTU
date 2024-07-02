@@ -24,10 +24,10 @@ export default {
         
     // giscus配置
     giscusTalk({
-      repo: 'your github repository', //仓库
-      repoId: 'your repository id', //仓库ID
+      repo: 'XiStudyGroup/SurviveXJTU', //仓库
+      repoId: 'R_kgDOMJG1IA', //仓库ID
       category: 'Announcements', // 讨论分类
-      categoryId: 'your category id', //讨论分类ID
+      categoryId: 'DIC_kwDOMJG1IM4CgiFu', //讨论分类ID
       mapping: 'pathname',
       inputPosition: 'bottom',
       lang: 'zh-CN',
