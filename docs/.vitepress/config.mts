@@ -41,16 +41,16 @@ export default defineConfig({
       { text: '备考篇', link: '/备考篇' }
     ],
 
-    sidebar: {
-      '/前言/':[{
+    sidebar: [
+      {
         text: '前言',
         link: '/前言/',
         collapsed: true,
         items: [
           { text: '笔者的话', link: '/前言/笔者的话' },
         ]
-      }],
-      '/人生篇/':[{
+      },
+      {
         text: '人生篇',
         link: '/人生篇/',
         collapsed: true,
@@ -60,8 +60,8 @@ export default defineConfig({
           { text: '种一棵树', link: '/人生篇/种一棵树' },
           { text: '开源精神', link: '/人生篇/开源精神' },
         ]
-      }],
-      '/入学篇/':[{
+      },
+      {
         text: '入学篇',
         link: '/入学篇/',
         collapsed: true,
@@ -72,8 +72,8 @@ export default defineConfig({
           { text: '推荐与不推荐做的事情', link: '/入学篇/推荐与不推荐做的事情' },
           { text: '开学考', link: '/入学篇/开学考' },
         ]
-      }],
-      '/研学篇/':[{
+      },
+      {
         text: '研学篇',
         link: '/研学篇/',
         collapsed: true,
@@ -84,16 +84,16 @@ export default defineConfig({
           { text: '规避教材有罪论', link: '/研学篇/规避教材有罪论' },
           { text: '记笔记是一种正反馈', link: '/研学篇/记笔记是一种正反馈' },
         ]
-      }],
-      '/路线篇/':[{
+      },
+      {
         text: '路线篇',
         link: '/路线篇/',
         collapsed: true,
         items: [
           { text: '人工智能学习路线', link: '/路线篇/人工智能学习路线' },
         ]
-      }],
-      '/保研篇/':[{
+      },
+      {
         text: '保研篇',
         link: '/保研篇/',
         collapsed: true,
@@ -105,16 +105,16 @@ export default defineConfig({
           { text: '科研是唯一的含金量', link: '/保研篇/科研是唯一的含金量' },
           { text: '保研外校', link: '/保研篇/保研外校' },
         ]
-      }],
-      '/备考篇/':[{
+      },
+      {
         text: '备考篇',
         link: '/备考篇/',
         collapsed: true,
         items: [
           { text: '大学英语', link: '/备考篇/大学英语' },
         ]
-      }],
-    },
+      },
+    ],
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/XiStudyGroup/SurviveXJTU' }
