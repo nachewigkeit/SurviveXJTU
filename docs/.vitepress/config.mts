@@ -36,6 +36,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: '前言', link: '/前言' },
+      { text: '贡献指南', link: '/前言/贡献指南' },
       { text: '人生篇', link: '/人生篇' },
       { text: '入学篇', link: '/入学篇' },
       { text: '研学篇', link: '/研学篇' },
