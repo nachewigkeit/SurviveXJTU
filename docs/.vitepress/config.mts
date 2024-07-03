@@ -42,7 +42,9 @@ export default defineConfig({
       { text: '研学篇', link: '/研学篇' },
       { text: '路线篇', link: '/路线篇' },
       { text: '保研篇', link: '/保研篇' },
-      { text: '备考篇', link: '/备考篇' }
+      { text: '备考篇', link: '/备考篇' },
+      { text: '生活篇', link: '/生活篇' },
+      { text: '社团篇', link: '/社团篇' }
     ],
 
     sidebar: [
@@ -117,6 +119,20 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: '大学英语', link: '/备考篇/大学英语' },
+        ]
+      },
+      {
+        text: '生活篇',
+        link: '/生活篇/',
+        collapsed: true,
+        items: [
+        ]
+      },
+      {
+        text: '社团篇',
+        link: '/社团篇/',
+        collapsed: true,
+        items: [
         ]
       },
     ],

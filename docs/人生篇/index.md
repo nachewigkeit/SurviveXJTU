@@ -1,3 +1,10 @@
+<div style="text-indent: 4ch;">
+    <h3 style="font-style: italic; font-weight: bold;">一位先贤曾经说过：“好的开始，是成功的一半。”但他没有告诉我们剩下的一半是什么。</h3>
+    <h4 style="font-style: italic; text-align: right; ">- 重返未来1999·孤独之歌·证明的开端</h4>
+</div>
+
+---
+
 # 前言
 
 你好，欢迎来到西安交通大学。
