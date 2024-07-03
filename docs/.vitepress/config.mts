@@ -5,6 +5,9 @@ import { generateSidebar } from 'vitepress-sidebar';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   markdown: {
+    image: {
+      lazyLoading: true
+    },
     math: true
   },
   vite: { 
@@ -48,6 +51,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: '笔者的话', link: '/前言/笔者的话' },
+          { text: '贡献指南', link: '/前言/贡献指南' },
         ]
       },
       {
